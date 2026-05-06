@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prints</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    <nav>
+        <a href="../calculos/">Cálculos</a>
+        <a href="../calculadoraGPT/">Calculadora</a>
+        <a href="../calcMédia/">Média</a>
+        <a href="../bootstrap5/">Bootstrap5</a>
+        <a href="../jogo_da_cobrinha/">jogo-da-cobrinha📍</a>
+        <a href="../print/">Print</a>
+    </nav>
+<body>
+    <h1>Teste de Prints de Inputs</h1>
+    <main>
+        <div>
+
+
+            <label for="i1">Input de Texto</label>
+            <input type="text" id="i1">
+
+            <label for="i2">Input de Cor</label>
+            <input type="color" id="i2">
+
+            <label for="i3">Input de Data</label>
+            <input type="date" id="i3">
+
+            <label for="i4">Input de CheckBox</label>
+            <input type="checkbox" id="i4">
+
+        
+            <button onclick="mostrar()">MOSTRAR</button>
+
+
+
+            <div class="printResp" id="apareca">
+                <p id="printTexto"></p>
+                <p id="printColor"></p>
+                <p id="printData"></p>
+                <p id="printCheck"></p>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

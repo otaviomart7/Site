@@ -11,7 +11,7 @@ body {
 
 .game-container {
     width: 400px;
-    height: 600px;
+    height: 460px;
     background: #111;
     border-radius: 20px;
     display: flex;
