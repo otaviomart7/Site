@@ -33,9 +33,13 @@ function spawnFood() {
 
 function changeDirection(event) {
     if (event.key === "ArrowUp" && direction !== "DOWN") direction = "UP";
+    if (event.key === "w" && direction !== "DOWN") direction = "UP";
     if (event.key === "ArrowDown" && direction !== "UP") direction = "DOWN";
+    if (event.key === "s" && direction !== "UP") direction = "DOWN";
     if (event.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
+    if (event.key === "a" && direction !== "RIGHT") direction = "LEFT";
     if (event.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
+    if (event.key === "d" && direction !== "LEFT") direction = "RIGHT";
 }
 
 function draw() {
