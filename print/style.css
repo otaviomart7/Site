@@ -15,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    background-color: blue;
+    background-color: rgb(119, 119, 176);
     color: rgb(255, 187, 0);
     font-size: 22px;
 }
